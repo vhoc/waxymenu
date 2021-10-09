@@ -1,0 +1,14 @@
+.container {
+    padding: 1rem;
+}
+
+header > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.logotipo {
+    width: 150px;
+    height: auto;
+}
