@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Waxy.menu</title>
+    <meta name="title" content="Waxy.menu">
+    <meta name="description" content="Crea tu menú digital con código QR">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://waxy.menu">
+    <meta property="og:title" content="Waxy.menu">
+    <meta property="og:description" content="Crea tu menú digital con código QR">
+    <meta property="og:image" content="https://">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://waxy.menu">
+    <meta property="twitter:title" content="Waxy.menu">
+    <meta property="twitter:description" content="Crea tu menú digital con código QR">
+    <meta property="twitter:image" content="https://">
+
+    <!-- Styles -->
+    <style>
+        /* Initial settings, Globals and Variables */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Variables here */
+        :root {
+
+            --primary: #ffd500;
+            --secondary: #545e68;
+            
+        }
+
+        @font-face {
+            font-family: 'dosis-regular';
+            src: url('assets/fonts/Dosis-Regular.woff2') format('woff2'),
+                url('assets/fonts/Dosis-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'dosis-extralight';
+            src: url('assets/fonts/Dosis-ExtraLight.woff2') format('woff2'),
+                url('assets/fonts/Dosis-ExtraLight.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'dosis-bold';
+            src: url('assets/fonts/Dosis-Bold.woff2') format('woff2'),
+                url('assets/fonts/Dosis-Bold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body {
+            font-family: 'dosis-regular';
+            min-width: 320px;
+        }
+
+        li { list-style: none; }
+
+        a { text-decoration: none; }
+
+        .border {
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+        }
+
+        .btn {
+            background-color: black;
+            color: white;
+            padding: 0.5rem 2rem 0.5rem 2rem;
+            border: 0;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #ffd500;
+            color: black;
+        }
+
+        .btn:active {
+            background-color: white;
+            color: black;
+            box-shadow: 1px 1px 6px black inset;
+        }
+
+    </style>
+
+    <link rel="stylesheet" media="screen and (min-width:0px)" href="assets/css/mobile.css"/>
+    <link rel="stylesheet" media="screen and (min-width:481px)" href="assets/css/tablet.css"/>
+    <link rel="stylesheet" media="screen and (min-width:769px)" href="assets/css/desktop.css"/>
+    <link rel="stylesheet" media="screen and (min-width:1025px)" href="assets/css/desktop-xl.css"/>
+    <link rel="stylesheet" media="screen and (min-width:1201px)" href="assets/css/desktop-xxl.css"/>
+
+    <!-- Preloads -->
+    <link rel="preload" as="image" href="assets/img/header-image.svg"/>
+
+</head>
+
+<body>
+    
+    <div id="main">
+        
+        <!---------------------------------->
+        <!--            Header            -->
+        <!---------------------------------->
+
+        <header>
+
+            <div class="container">
+                <img class="logotipo" src="assets/img/logotipo.svg" alt="waxy.menu"/>
+            </div>
+
+        </header>
+
+        <!---------------------------------->
+        <!--             Intro            -->
+        <!---------------------------------->
+
+        <section id="intro">
+
+            <div class="container">
+
+                <div>
+                    <h1>
+                        Crea el menú de tu restaurante de forma digital
+                    </h1>
+                    <button class="btn">EMPEZAR</button>
+                </div>
+
+                <img class="ilustracion" src="assets/img/header-image.svg" aria-hidden="true"/>
+
+            </div>
+
+        </section>
+
+        <!---------------------------------->
+        <!--         Cómo Funciona        -->
+        <!---------------------------------->
+
+        <section id="como-funciona">
+
+            <div class="container">
+
+                <h1>¿CÓMO FUNCIONA?</h1>
+
+                <div class="graficos">
+                    <img src="assets/img/funciona-1.svg"/>
+                    <img class="flecha" src="assets/img/signal.svg" />
+                    <img src="assets/img/funciona-2.svg" />
+                    <img class="flecha" src="assets/img/flecha.svg" />
+                    <img src="assets/img/funciona-3.svg" />
+                    <img class="flecha" src="assets/img/flecha.svg" />
+                    <img src="assets/img/alerta.svg" />
+                </div>
+
+                <div class="pasos">
+
+                    <div>
+                        <h3>1</h3>
+                        <hr/>
+                        <p>ENCUENTRA EL CÓDIGO QR</p>
+                    </div>
+
+                    <div>
+                        <h3>2</h3>
+                        <hr/>
+                        <p>ESCANEA EL CÓDIGO QR</p>
+                    </div>
+
+                    <div>
+                        <h3>3</h3>
+                        <hr/>
+                        <p>ACCEDE A LA INFORMACIÓN</p>
+                    </div>
+
+                    <div>
+                        <h3>4</h3>
+                        <hr/>
+                        <p>ENCUENTRA LO QUE BUSCAS</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!---------------------------------->
+        <!--             Demo             -->
+        <!---------------------------------->
+
+        <section id="demo">
+
+            <div class="container">
+
+                <div>
+                    <h1>
+                        ASÍ SE VE TU MENÚ INTERACTIVO
+                    </h1>
+                </div>
+
+                <iframe id="menu-demo" src=""></iframe>
+
+            </div>
+
+        </section>
+
+        <!---------------------------------->
+        <!--           Contacto           -->
+        <!---------------------------------->
+
+        <section id="contacto">
+
+            <div class="container">
+
+                <div>
+                    <h1>
+                        ¿TE GUSTA? CONTÁCTANOS
+                    </h1>
+                </div>
+
+                <!-- Easy Forms -->
+                <div id="c42">
+                    Llena mi <a href="https://waxyform.com/app/app/form?id=42">formulario en línea</a>.
+                </div>
+                <script type="text/javascript">
+                    (function(d, t) {
+                        var s = d.createElement(t), options = {
+                            'id': 42,
+                            'container': 'c42',
+                            'height': '370px',
+                            'form': '//waxyform.com/app/app/embed'
+                        };
+                        s.type= 'text/javascript';
+                        s.src = 'https://waxyform.com/app/static_files/js/form.widget.js';
+                        s.onload = s.onreadystatechange = function() {
+                            var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                            try { (new EasyForms()).initialize(options).display() } catch (e) { }
+                        };
+                        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');
+                </script>
+                <!-- End Easy Forms -->
+
+            </div>
+
+        </section>
+
+        <!---------------------------------->
+        <!--            Footer            -->
+        <!---------------------------------->
+
+        <footer>
+
+            <div class="container">
+
+                <p>Juter</p>
+
+            </div>
+
+        </footer>
+
+
+    </div>
+
+    
+    <script>
+        const urls = [
+            'https://mariscoslaspalmas.waxy.menu',
+            'https://menu.mariscoselrey.com.mx/'
+        ];
+
+        const index = Math.floor( Math.random() * urls.length );
+
+        let menuDemo = document.querySelector( "#menu-demo" );
+        menuDemo.setAttribute("src", urls[index]);
+        console.log( urls[index] );
+    </script>
+</body>
+
+</html>
