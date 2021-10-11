@@ -104,3 +104,9 @@ iframe {
     align-items: center;
     text-align: center;
 }
+
+/* FOOTER */
+footer > .container {
+    background-color: var( --secondary );
+    padding: 2rem;
+}
