@@ -1,3 +1,4 @@
+/* Header */
 .container {
     padding: 1rem;
 }
@@ -11,4 +12,95 @@ header > .container {
 img.logotipo {
     width: 150px;
     height: auto;
+}
+
+/* INTRO */
+#intro > .container {
+    padding: 0;
+}
+
+#intro > .container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro > .container h1 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.8em;
+}
+
+#intro > .container button {
+    margin-bottom: 2rem;
+}
+
+/* COMO FUNCIONA */
+#como-funciona > .container {
+    background-color: var( --secondary );
+    color: white;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#como-funciona > .container .graficos img {
+    width: 50px;    
+}
+
+#como-funciona > .container .graficos .flecha {
+    width: 18px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#como-funciona > .container .graficos {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.pasos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pasos > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pasos > div > hr {
+    width: 100px;
+}
+
+/* DEMO */
+#demo > .container {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+iframe {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    height: 500px;
+}
+
+/* CONTACTO */
+#contacto > .container {
+    background-color: var( --primary );
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
