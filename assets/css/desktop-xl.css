@@ -1,5 +1,23 @@
 @media only screen and ( min-width: 1025px ) {
 
+    body {
+        display: flex;
+        justify-content: center;
+        background-image: url( '../img/wooden-background.jpg' );
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #main {
+
+        max-width: 1025px;
+        box-shadow: 1px 0px 18px 5px rgba(0,0,0,0.8);
+        -webkit-box-shadow: 1px 0px 18px 5px rgba(0,0,0,0.8);
+        -moz-box-shadow: 1px 0px 18px 5px rgba(0,0,0,0.8);
+
+    }
+
     /* INTRO */
     #intro > .container {
         display: flex;
@@ -16,6 +34,55 @@
         padding: 1.3rem 4.0rem 1.3rem 4.0rem;
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+
+    /* COMO FUNCIONA */
+    #como-funciona > .container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    #como-funciona > .container .graficos img {
+        width: 150px;    
+    }
+
+    .pasos h3 {
+        font-size: 2.6rem;
+    }
+
+    .pasos p {
+        font-size: 1.62rem;
+    }
+
+    .pasos > div > hr {
+        width: 10em;
+    }
+
+    /* DEMO */
+    #demo > .container {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    #demo > .container h1 {
+        margin-bottom: 3rem;
+    }
+
+    /* CONTACTO */
+
+    #contacto > .container {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    #contacto > .container h1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    /* FOOTER */
+    footer > .container > .social-icons {
+        justify-content: space-between;
     }
 
 }
