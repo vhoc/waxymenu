@@ -33,7 +33,7 @@ img.logotipo {
     font-size: 1.8em;
 }
 
-#intro > .container button {
+#intro > .container a {
     margin-bottom: 2rem;
 }
 
