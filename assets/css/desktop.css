@@ -1,5 +1,105 @@
 @media only screen and ( min-width: 769px ) {
     
+    /* HEADER */
+    header > .container {
+        display: flex;
+        justify-content: start;
+    }
+
+    /* INTRO */
+    #intro > .container {
+        display: flex;
+        height: 350px;
+    }
+
+    #intro > .container > div {
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    #intro > .container h1 {
+        font-size: 2.5rem;
+        text-align: right;
+    }
+
+    #intro > .container button {
+        font-size: 1.2em;
+        padding: 0.62rem 3.0rem 0.62rem 3.0rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .ilustracion {
+        width: 55%;
+        align-self: flex-end;
+    }
+
+    /* INTRO */
+    #como-funciona > .container > h1 {
+        font-size: 2.5em;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    #como-funciona > .container .graficos img {
+        width: 100px;    
+    }
+
+    #como-funciona > .container .graficos .flecha {
+        width: 48px;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .pasos {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        gap: 6rem;
+    }
+
+    .pasos h3 {
+        font-size: 2em;
+    }
+
+    /* DEMO */
+    #menu-demo {
+        width: 768px;
+        height: 600px;
+    }
+
+    /* FOOTER */
+    footer > .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer > .container p {
+        font-size: 1.618rem;
+    }
+
+    .social-icons {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #logo-bottom {
+        display: none;
+    }
+
+    #logo-bottom-desktop {
+        display: block;
+    }
+
+    
  
- 
+ }
+
+ @media only screen and ( min-width: 869px ) {
+
+    /* INTRO */
+    #intro > .container {
+        display: flex;
+        height: 50vh;
+    }
+
  }

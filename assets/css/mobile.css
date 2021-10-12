@@ -88,10 +88,11 @@ img.logotipo {
     text-align: center;
 }
 
-iframe {
+#menu-demo {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border: 0;
+    width: 320px;
     height: 500px;
 }
 
@@ -109,4 +110,26 @@ iframe {
 footer > .container {
     background-color: var( --secondary );
     padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+footer > .container > .social-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > .container > .social-icons i {
+    font-size: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    color: white;
+}
+
+#logo-bottom {
+    margin-top: 3rem;
+    align-self:  center;
 }
